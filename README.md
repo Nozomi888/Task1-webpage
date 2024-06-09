@@ -1,1 +1,2 @@
 # Task1-webpage
+The Cookbook Project is a dynamic and user-friendly website designed to offer an extensive collection of recipes from various regions across India. The primary aim of this project is to celebrate the rich and diverse culinary heritage of India by providing users with easy access to traditional and contemporary recipes. Whether you're a seasoned cook or a culinary novice, the Cookbook Project is your go-to resource for discovering and mastering Indian cuisine.

@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>CookBook</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="banner">
+      <div class="navbar">
+          <img src="logo.png" class="logo">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Recipes<i class="fas fa-caret-down"></i></a>
+              <div class="dropdown_menu">
+                  <ul>
+                      <li><a href="pages/andhra.html">Andhra Pradesh</a></li>
+                      <li><a href="pages/guju.html">Gujarat</a></li>
+                      <li><a href="pages/odia.html">Odisha</a></li>
+                  </ul>
+                  </div>
+              
+              
+              </li>
+              <li><a href="pages/starthere.html">Start here</a></li>
+              <li><a href="pages/about.html">About</a></li>
+          </ul>
+       </div>
+        <div class="content">
+            <h1>FIND YOUR RECIPE</h1>
+            <p>CookBook will help you to create delicious recipes.</p>
+            <div>
+            <button type="button" id="learnMoreBtn"><span></span>Learn More</button>
+            <button type="button" id="watchVideosBtn"><span></span>Watch Videos</button>
+               <script>
+        document.getElementById('learnMoreBtn').addEventListener('click', function() {
+            window.location.href = 'pages/learn.html';
+        });
+
+        document.getElementById('watchVideosBtn').addEventListener('click', function() {
+            window.location.href = 'https://www.example.com/watch-videos';
+        });  
+          </script>       
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

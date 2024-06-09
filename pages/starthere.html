@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Indian Recipes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background:#009688;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .banner {
+            width: 100%;
+            height: 60vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 50px;
+        }
+
+        .content p {
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+            max-width: 600px;
+        }
+
+        .recipes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            background: #fff;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: 300px;
+            text-align: center;
+        }
+
+        .recipe-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .recipe-card h2 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .recipe-card h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .recipe-card p {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .recipe-card ul {
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .recipe-card ul li {
+            margin-bottom: 5px;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="content">
+            <h1>Easy Indian Recipes</h1>
+            <p>Delicious and easy-to-make Indian recipes for everyone</p>
+        </div>
+    </div>
+    <div class="recipes">
+        <div class="recipe-card">
+            <img src="pics/Chicken-Curry-recipe.jpg" alt="Chicken Curry">
+            <h2>Chicken Curry</h2>
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>500g chicken, cut into pieces</li>
+                <li>2 onions, finely chopped</li>
+                <li>3 tomatoes, pureed</li>
+                <li>2 tbsp ginger-garlic paste</li>
+                <li>2 tbsp curry powder</li>
+                <li>1 tsp turmeric powder</li>
+                <li>1 tsp red chili powder</li>
+                <li>Salt to taste</li>
+                <li>2 tbsp oil</li>
+                <li>Fresh coriander leaves for garnish</li>
+            </ul>
+            <h3>Instructions:</h3>
+            <p>
+                1. Heat oil in a pot and sauté onions until golden brown.<br>
+                2. Add ginger-garlic paste and cook for a minute.<br>
+                3. Add the chicken pieces and cook until they are no longer pink.<br>
+                4. Stir in the tomato puree, curry powder, turmeric, red chili powder, and salt. Cook for 10 minutes.<br>
+                5. Add water as needed and simmer until the chicken is cooked through.<br>
+                6. Garnish with fresh coriander leaves and serve hot.
+            </p>
+        </div>
+        <div class="recipe-card">
+            <img src="pics/daltadka.jpg" alt="Dal Tadka">
+            <h2>Dal Tadka</h2>
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup yellow lentils (toor dal)</li>
+                <li>1 onion, finely chopped</li>
+                <li>2 tomatoes, chopped</li>
+                <li>2 green chilies, slit</li>
+                <li>2 tbsp ginger-garlic paste</li>
+                <li>1 tsp cumin seeds</li>
+                <li>1 tsp mustard seeds</li>
+                <li>1 tsp turmeric powder</li>
+                <li>1 tsp red chili powder</li>
+                <li>Salt to taste</li>
+                <li>2 tbsp ghee</li>
+                <li>Fresh coriander leaves for garnish</li>
+            </ul>
+            <h3>Instructions:</h3>
+            <p>
+                1. Cook the lentils with water and turmeric powder until soft.<br>
+                2. Heat ghee in a pan and add cumin seeds and mustard seeds. Let them splutter.<br>
+                3. Add onions, green chilies, and ginger-garlic paste. Sauté until onions are golden brown.<br>
+                4. Add tomatoes, red chili powder, and salt. Cook until tomatoes are soft.<br>
+                5. Pour this mixture over the cooked lentils and mix well.<br>
+                6. Garnish with fresh coriander leaves and serve hot.
+            </p>
+        </div>
+        <div class="recipe-card">
+            <img src="pics/palakpaneer.jpg" alt="Palak Paneer">
+            <h2>Palak Paneer</h2>
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>200g paneer, cut into cubes</li>
+                <li>4 cups spinach leaves, blanched and pureed</li>
+                <li>1 onion, finely chopped</li>
+                <li>2 tomatoes, pureed</li>
+                <li>2 tbsp ginger-garlic paste</li>
+                <li>1 tsp cumin seeds</li>
+                <li>1 tsp garam masala</li>
+                <li>1 tsp turmeric powder</li>
+                <li>1 tsp red chili powder</li>
+                <li>Salt to taste</li>
+                <li>2 tbsp cream</li>
+                <li>2 tbsp oil</li>
+            </ul>
+            <h3>Instructions:</h3>
+            <p>
+                1. Heat oil in a pan and add cumin seeds. Let them splutter.<br>
+                2. Add onions and sauté until golden brown.<br>
+                3. Add ginger-garlic paste and cook for a minute.<br>
+                4. Add tomato puree, turmeric, red chili powder, and salt. Cook until the oil separates.<br>
+                5. Add the spinach puree and mix well. Cook for 5 minutes.<br>
+                6. Add the paneer cubes and garam masala. Simmer for 5-7 minutes.<br>
+                7. Stir in the cream and serve hot with naan or rice.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
